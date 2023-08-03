@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Primeiros passos HTML</title>
+    </head>
+    <body>
+        <h1 id="Voltar"> PRIMEIROS PASSOS HTML </h1>
+        <hr />
+
+        <h2> INDICE </h2>
+        <ol>
+            <li><a href= "#Historia da Web"> Historia da Web </a></li>
+            <li><a href= "#Estrutura client-server"> Estrutura client-server </a></li>
+            <li><a href= "#Linguagens de programação"> Linguagens de programação </a></li>
+            <li><a href= "#Introdução HTML"> Introdução HTML </a>
+                <ul> 
+                    <li><a href= "#Estrutura básicas do HTML"> Estrutura básicas do HTML </a></li>
+                    <li><a href= "#Tags"> Tags </a></li>
+                    <li><a href= "#Textos"> Textos </a></li>
+                    <li><a href= "#Lista ordenada e não ordenada"> Lista ordenada e não ordenada </a></li>
+                    <li><a href= "#Links"> Links </a></li>
+                </ul>
+            </li>
+            <li><a href= "#Bibliografia"> Bibliografia </a></li>
+        </ol>
+        
+        <h3 id="Historia da Web"> Historia da Web </h3>
+        <p>Há 40 anos, enquanto os principais meios de comunicação eram o telégrafo e o telefone, os computadores eram grandes máquinas que realizavam cálculos e armazenavam informações. De forma geral, seu uso tinha fins exclusivamente científicos e governamentais.</p>
+        <p>Em 1957, os Estados Unidos e a União Soviética protagonizavam a Guerra Fria, um embate em termos ideológicos, econômicos, políticos, militares e, é claro, tecnológicos.</p>
+        <p>Devido ao conflito, os Estados Unidos estavam interessados em encontrar uma maneira de proteger suas informações e comunicações no caso de um ataque nuclear soviético. As inovações que tentaram resolver esse problema levaram ao que conhecemos hoje como Internet.   </p>
+        <p><a href= "#Voltar"> Voltar </a></p>
+
+        <h3 id="Estrutura client-server"> Estrutura client-server </h3>
+        <p>Um <strong><i><u>server</u></i></strong> é um recurso dentro de um sistema computacional, capaz de processar aplicações, armazenar dados e prestar serviços, enquanto o <strong><i><u>client</u></i></strong> é um computador que solicita esses serviços e recursos. Em uma infraestrutura de TI, ambos formam a arquitetura conhecida como “cliente-servidor”.</p>
+        <p>Uma estrutura cliente-servidor é um modelo de arquitetura de rede em que um programa de computador (cliente), solicita um serviço ou recurso de outro programa de computador (servidor), recebendo uma resposta com as informações solicitadas por meio de protocolos de rede em infraestruturas de TI.
+         A comunicação cliente-servidor é baseada em troca de mensagens, onde o cliente envia requisições e o servidor responde com as informações requisitadas.</p>
+        <p><a href= "#Voltar"> Voltar </a></p>
+
+        <h3 id="Linguagens de programação"> Linguagens de programação </h3>
+        <p><strong><i><u>Linguagem de Programação</u></i></strong> é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software). Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução. Existem várias linguagens e elas servem para muitos propósitos. Alguns óbvios, como criar um software, outros menos, como controlar um carro ou uma torradeira.</p>
+        <p>Um app que roda no seu celular é um tipo de software criado com uma linguagem de programação. Um game, que roda em um PC ou em outros equipamentos, também. Uma TV smart, que possui a funcionalidade de se conectar na internet e permitir ao consumidor usar um navegador, usa linguagens de programação tanto no hardware quanto no software.</p>
+        <p><a href= "#Voltar"> Voltar </a></p>
+
+        <h3 id="Introdução HTML"> Introdução HTML </h3>
+        <p><strong><i><u>HTML</u></i></strong> (HyperText Markup Language) não é uma linguagem de programação, é uma linguagem de marcação utilizada para dizer ao seu navegador como estruturar a página web que você visita. A página pode ser tanto complicada como simples quanto o desenvolvedor web desejar que seja. HTML consiste em uma série de elementos que você usa para anexar, envolver ou marcar diferentes partes do conteúdo para que apareça ou aja de uma certa maneira. O fechamento das tags pode transformar uma parte do conteúdo dentro do elemento em um link para direcionar à uma outra página web, colocar as palavras em itálico, e assim por diante.</p>
+        <p><a href= "#Voltar"> Voltar </a></p>
+
+        <ul> 
+            <li><h4 id="Estrutura básicas do HTML"> Estrutura básicas do HTML </h4></li>
+            <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags html, head e body e a instrução !DOCTYPE. Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através do que está declarado nela que é possível entender se um documento HTML válido. Um documento HTML inválido é carregado pelo navegador, porém em um "modo de compatibilidade", vamos entender melhor sobre isto logo mais.
+            <p><a href= "#Voltar"> Voltar </a></p>
+
+            </p>
+            <li><h4 id="Tags"> Tags </h4></li>
+            <p>Os <strong><i><u>tags</u></i></strong> façem funçoes dentro do HTML, eles servem para criar a estrutura do nosso documento, antes de começar a colocar o conteúdo, inserimos uma tag html. Dentro dessa tag, é necessário declarar outras duas tags: head e body. Essas duas tags são "irmãs", pois estão no mesmo nível hierárquico em relação à sua tag "mãe", que é html.</p>
+            <p><a href= "#Voltar"> Voltar </a></p>
+            
+            <li><h4 id="Textos"> Textos </h4></li>
+            <p>Os <strong><i><u>textos</u></i></strong> tem que ser escritos dentros dos tags p e /p, também podem ser escritos no tag blockquote que pode colocar uma frase ou uma observaçao</p>
+            <p><a href= "#Voltar"> Voltar </a></p>
+            
+            <li><h4 id="Lista ordenada e não ordenada"> Lista ordenada e não ordenada </h4></li>
+            <p>As <strong><i><u>lista ordenada e não ordenada</u></i></strong> podem ser colocadas utilizando o tag ol para lista ordenada e ul para lista não ordenada, nestos tags temos que colocar o tag li para começar nossa lista</p>
+            <p><a href= "#Voltar"> Voltar </a></p>
+            
+            <li><h4 id="Links"> Links </h4></li>
+            <p>O <strong><i><u>link</u></i></strong> serve para redigirir as pessoas até otra parte da janela ou até pode redigir a uma janela nova</p>
+            <p><a href= "#Voltar"> Voltar </a></p>
+        
+        </ul>
+
+        <h3 id="Bibliografia"> Bibliografia </h3>
+        <p> <a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Um%20servidor%20%C3%A9%20um%20recurso,solicita%20esses%20servi%C3%A7os%20e%20recursos." target="_blank">https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Um%20servidor%20%C3%A9%20um%20recurso,solicita%20esses%20servi%C3%A7os%20e%20recursos.</a></p>
+        <p> <a href="https://rockcontent.com/br/blog/historia-da-internet/" target="_blank">https://rockcontent.com/br/blog/historia-da-internet/</a></p>
+        <p> <a href="https://universidadedatecnologia.com.br/o-que-e-linguagem-de-programacao/" target="_blank">https://universidadedatecnologia.com.br/o-que-e-linguagem-de-programacao/</a></p>
+        <p> <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML" target="_blank">https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML</a>
+        <p><a href= "#Voltar"> Voltar </a></p>
+     </body>
+</html>
